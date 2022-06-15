@@ -1,4 +1,18 @@
 # FE16-Angular-Day3
+Day 3 | Classwork
+Recreate today's pre-work but this time we will create products for a petstore.
+
+when you download it, unzip it, then open the terminal inside the project and type
+npm i
+to install the node_modules folder
+
+
+
+
+
+
+
+Documentation v16.0
 Basic
 Basic Exercise | Warm up questions
 * What is the difference between non-goals and anti-goals?
