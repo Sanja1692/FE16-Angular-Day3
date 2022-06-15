@@ -8,7 +8,7 @@ import { IPets } from '../IPets';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  // pets: IPets[] = pets;
+  petItem:Array<IPets> = pets;
 
   constructor() { }
 

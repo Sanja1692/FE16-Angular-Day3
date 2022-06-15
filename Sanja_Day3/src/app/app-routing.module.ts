@@ -6,10 +6,7 @@ const routes: Routes = [
   {
     path: "", component: HomePageComponent
   }
-  //, {
-  //   path: "", component: HomePageComponent
-  // }
-];
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

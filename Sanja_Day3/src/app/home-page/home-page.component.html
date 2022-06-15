@@ -1,1 +1,18 @@
-<p>home-page works!</p>
+<div class="row">
+    <div *ngFor="let val of petItem" class="col-3 m-4">
+        <div class="card" style="width: 18rem;">
+            <img src="{{val.img}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{val.name}}</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{val.breed}}</li>
+                <li class="list-group-item">{{val.age}}</li>
+                <li class="list-group-item">{{val.price}}</li>
+                <li class="list-group-item" *ngIf="val.description">{{val.description}}</li>
+                <!--show only if exist-->
+
+            </ul>
+        </div>
+    </div>
+</div>
