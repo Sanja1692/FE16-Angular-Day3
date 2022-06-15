@@ -2,13 +2,13 @@
 
 <div class="card mb-3">
     <img src="{{pet.img}}" class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">{{pet.name}}</h5>
-        <p class="card-text">{{pet.breed}}</p>
-        <p class="card-text">{{pet.age}}</p>
-        <p class="card-text">{{pet.gender}}</p>
-        <p class="card-text">{{pet.size}}</p>
-        <p class="card-text">{{pet.price | currency}}</p>
+    <div class="card-body text-center">
+        <h5 class="card-title">My name is {{pet.name}}</h5>
+        <p class="card-text">I am a {{pet.breed}}</p>
+        <p class="card-text">I am {{pet.age}} years old</p>
+        <p class="card-text">I am a {{pet.gender}}</p>
+        <p class="card-text">I am {{pet.size}} size</p>
+        <p class="card-text">My price is {{pet.price | currency}}</p>
         <p class="card-text"><small class="text-muted">{{pet.description}}</small></p>
     </div>
 </div>
