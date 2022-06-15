@@ -29,7 +29,7 @@ export const pets = [
     {
   
     name: 'Kiko',
-    breed: 'birg', 
+    breed: 'bird', 
     age: 1, 
     gender:'female', 
     size:'small', 

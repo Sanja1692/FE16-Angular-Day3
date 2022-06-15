@@ -1,1 +1,14 @@
-<p>pet-details works!</p>
+<h2>Product Details</h2>
+
+<div class="card mb-3">
+    <img src="{{pet.img}}" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{pet.name}}</h5>
+        <p class="card-text">{{pet.breed}}</p>
+        <p class="card-text">{{pet.age}}</p>
+        <p class="card-text">{{pet.gender}}</p>
+        <p class="card-text">{{pet.size}}</p>
+        <p class="card-text">{{pet.price | currency}}</p>
+        <p class="card-text"><small class="text-muted">{{pet.description}}</small></p>
+    </div>
+</div>
