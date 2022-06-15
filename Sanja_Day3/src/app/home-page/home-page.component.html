@@ -1,9 +1,11 @@
 <div class="row">
-    <div *ngFor="let val of petItem" class="col-3 m-4">
+    <div *ngFor="let val of petItem; index as i" class="col-3 m-4">
         <div class="card" style="width: 18rem;">
             <img src="{{val.img}}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">{{val.name}}</h5>
+                <a routerLink="pets/{{ i }}">
+                    <h5 class="card-title">{{val.name}}</h5>
+                </a>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">{{val.breed}}</li>
